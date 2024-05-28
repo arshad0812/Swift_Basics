@@ -1,0 +1,21 @@
+var doubleValue = 3.14
+var intValue = Int(doubleValue)
+print("Integer value: \(intValue)")
+// Output: Integer value: 3
+
+let number = 456
+let strValue = String(number)
+print("String value: \(strValue)") // Output: String value: 456
+
+
+var wrd="123"
+var num=Int(wrd);
+print("String value: \(num)") 
+
+let wrd1="3.14"
+let dval=Double(wrd1)
+print(dval)
+
+print(type(of:dval))
+
+

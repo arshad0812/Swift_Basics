@@ -1,0 +1,14 @@
+import Foundation
+
+var name: String?=nil;
+var age: Int?=1      
+
+//Storing nil value in var with nil optional feature
+var len:Int?=name?.count
+print(len)
+
+
+//Using optional Chain to not setting nil val to len variable
+var len=(name?.count)!
+print(len)
+

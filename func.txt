@@ -1,0 +1,39 @@
+func func1(name:String)->String
+{
+    let nname="Hi,"+name;
+    return nname;
+}
+
+func func2(arr:[Int],value:Int)->[Int]
+{   
+    var brr:[Int]=arr;
+    brr.append(value);
+    return brr;
+}
+
+func func3(map:[String:Int])->[String:Int]{
+    var hmap=map
+    hmap["arshad"]=1;
+    return hmap;
+}
+
+let name:String=func1(name:"Arshad");
+print(name);
+
+var arr:[Int]=[1,2,3];
+var value=4;
+var brr:[Int]=func2(arr:arr,value:value);
+
+for i in brr{
+    print(i);
+}
+
+var hmap=["ahamed":2,"abi":3];
+var hmap1=func3(map:hmap);
+
+for (key,value) in hmap1{
+    print("\(key) and \(value)");
+}
+
+
+

@@ -1,0 +1,49 @@
+var arr1=Array<Int>([1,2,3]);
+var arr2=Array<Int>([])
+var arr3:[Int]=[1,2,3,4,5];
+var arr4:[Int]=[];
+var arr5=[1,2,3];
+arr4.append(1);
+arr4+=[2,3];
+print(arr1,arr2,arr3,arr4,arr5);
+
+
+var arr=[1,2,3];
+var arr1=Array<Int>([1,2,3])
+arr1.append(4);
+print(arr1[0]);
+
+//Emmpty Array
+var arr2=Array<Int>();
+var arr3:[Int]=[]
+
+
+//for loop
+for i in arr1 {
+    print(i)
+}
+
+for i in 0..<arr1.count{
+    print(i)
+}
+
+//While loop
+var i=0;
+while i<arr1.count {
+    print(arr1[i]);
+    i+=1;
+}
+
+
+var hmap=[1:"Arshad",2:"abi"];
+for (key,value) in hmap{
+    print("\(key) and \(value)")
+}
+
+
+var hmap1=Dictionary<Int,String>()
+hmap1[1]="Arshad";
+for (key,value) in hmap1{
+    print("\(key) and \(value)")
+}
+

@@ -1,0 +1,10 @@
+class obj{
+    var name="arshad";
+    var surname="";
+    
+}
+
+
+var obj1=obj();
+obj1.surname="ahamed";
+print("\(obj1.name) and \(obj1.surname)");

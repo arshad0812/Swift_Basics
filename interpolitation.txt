@@ -1,0 +1,13 @@
+import Foundation;
+
+
+
+var wrd1:Int;
+wrd1=1;
+var wrd2:Int;
+wrd2=2;
+var wrd3:String;
+wrd3="Hi";
+print("\(wrd1) and \(wrd2) and \(wrd3)");
+
+

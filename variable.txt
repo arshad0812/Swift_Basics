@@ -1,0 +1,51 @@
+import Foundation;
+
+
+//Variable declaration
+var wrd1="Hi";
+print(wrd1);
+
+
+var wrd:Int=1;
+print(wrd)
+
+//Late variable declaration
+var wrd1:String;
+let wrd2:String;
+wrd1="Arshad";
+wrd1="hi";
+wrd2="abi";
+print(wrd1,wrd2);
+
+//Final
+final wrd5="Hi";
+print(wrd5);
+
+//Error
+let wrd5="Hi"
+// wrd="Hello";
+print(wrd5);
+
+//TypeAnnotation late declaration
+let wrd6:String;
+wrd6="Hello";
+print(wrd6);
+
+//Float
+var percentage:Float;
+percentage=1.1;
+print(percentage);
+
+//Boolean
+var condition:Bool;
+condition=true;
+print(condition)
+
+var charc:Character="A";
+print(charc);
+
+
+//Double
+var dec:Double;
+dec=1.2222;
+print(dec);

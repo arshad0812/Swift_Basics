@@ -1,0 +1,45 @@
+class obj{
+    var name:String;
+    init(name:String){
+        self.name=name;
+    }
+    
+    func mthd1(wrd:String)->String{
+        let newwrd="Hi,"+wrd;
+        return newwrd;
+    }
+    
+    func mthd2(arr:Array<Int>)->[Int]{
+        var brr=arr;
+        brr.append(4);
+        return brr;
+    }
+    
+    func mthd3(_hmap:inout[Int:String])
+    {
+        _hmap[4]="final";
+      
+    }
+    
+    
+    
+}
+
+
+//Passing and returning string to class object
+var obj1=obj(name:"Arshad");
+print(obj1.mthd1(wrd:"arshad")); 
+
+//Passing and retuning arr to class object
+var arr=Array<Int>([1,2,3]);
+var brr=obj1.mthd2(arr:arr);
+for i in brr{
+    print(i);
+}
+
+//Passing and returning map to class object
+var hmap=[1:"arshad",2:"ahamed",3:"abi"];
+obj1.mthd3(_hmap:&hmap);
+for (key,value) in hmap{
+    print("\(key) and \(value)");
+}

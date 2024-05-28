@@ -1,0 +1,17 @@
+class obj{
+    var name:String;
+    var surname:String;
+    var firstname:String="";
+
+    init(name:String,surname:String){
+        self.name=name;
+        self.surname=surname;
+    }
+    
+}
+
+
+
+var obj1=obj(name:"Arshad",surname:"ahamed");
+obj1.firstname="abi";
+print("\(obj1.name) and \(obj1.surname) and \(obj1.firstname)");

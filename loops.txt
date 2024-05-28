@@ -1,0 +1,31 @@
+import Foundation
+
+
+
+var arr1=[1,2,3]
+var arr2:[Int]=[4,5,6]
+
+var map1=[1:"Arshad",2:"abi"]
+
+for i in arr1{
+    print(i)
+}
+
+
+for i in 0..<arr1.count{
+    print(arr1[i])
+}
+
+
+for (k,val) in map1
+{
+    print("\(k) and \(val)")
+}
+
+
+var i=0;
+while i<10
+{
+    print(i)
+    i+=1;
+}
